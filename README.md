@@ -6,14 +6,14 @@ I have used English to Vietnamese dataset.
 If you want to train the model yourself, I would suggest you to use a GPU or use google colab to do so.
 
 
-Testing can be done using the command:
+## Testing can be done using the command:
 
-
+``` python
 python NMT.py test
-
-The translation command is:
-
-
+```
+## The translation command is:
+```python
 python NMT.py translate
-
-The average BLEU score over the entire test data set is 19.35 which is very good
+```
+## Conclusion
+#### The average BLEU score over the entire test data set is 19.35 which is very good
